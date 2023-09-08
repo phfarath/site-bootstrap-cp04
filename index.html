@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyShop</title>
+
+  <!--Bootsrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- link com google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
+  <!-- link com os icones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!--Minha css-->
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+  <!-- navbar da pagina  -->
+  <header class="m-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Casual</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Masculino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feminino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Outlet</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-cart"></i> Carrinho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-person-circle"></i> Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- primeiro container  -->
+
+  <main class="container mb-3 container1">
+    <article class="row p-3 d-flex align-items-center ">
+      <section class="col-md-6 my-3 ">
+        <h1 class="display-5 ">Nova Coleção 2023</h1>
+        <h2>20% OFF para a nova coleção</h2>
+        <a href="" class="btn btn-outline btn-outline-dark btn-md ">Conheça a coleção</a>
+      </section>
+      <figure class="col-md-6 my-3">
+        <img src="./images/images/produto-hero.jpg" alt="" class="img-fluid"> <!-- imagem responsiva  -->
+      </figure>
+    </article>
+
+    <!-- segundo container  (4 imagens)-->
+    <h4 class="mt-4 d-flex justify-content-center">Produtos em destaque</h4>
+    <div class="container ">
+      <div class="row mb-4 d-flex align-items-center">
+
+        <!-- Imagem à esquerda -->
+        <div class="col-md-4">
+          <img src="./images/images/cat-img-1.jpg" alt="cadeira com camisetas em cima" class="img-fluid my-2 rounded">
+        </div>
+
+        <!-- Imagens no centro -->
+        <div class="col-md-4 ">
+          <img src="./images/images/cat-img-2.jpg" alt="tênis nike de corrida" class="img-fluid margin rounded">
+          <img src="./images/images/cat-img-3.jpg" alt="Relógio com pulseira de couro" class="img-fluid margin rounded">
+
+        </div>
+
+
+        <!-- Imagem à direita -->
+        <div class="col-md-4">
+          <img src="./images/images/cat-img-4.jpg" alt="Headphone com fio" class="img-fluid my-2 rounded">
+        </div>
+      </div>
+    </div>
+
+    <!-- terceiro container (8 imagens)-->
+
+    <main class="container mb-3 mt-3">
+      <h4 class="mt-4 d-flex justify-content-center">Veja Também</h4>
+      <article class="row row-cols-4 d-flex align-items-center">
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-1.jpg" alt="Fones de ouvido bluetooth"
+            class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+            
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm">Adicione ao carrinho</a>
+        </figure>
+        
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-2.jpg" alt="Tênis de basquete"
+            class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+            
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm">Adicione ao carrinho</a>
+        </figure>
+
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-3.jpg" alt="camiseta azul" class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+          
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm">Adicione ao carrinho</a>
+        </figure>
+        
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-4_resized.jpg" alt="Relógio com pulseira de couro" class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm">Adicione ao carrinho</a>
+        </figure>
+        
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-5.jpg" alt="Relógio digital com pulseira vermelha" class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+          
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm mb-2">Adicione ao carrinho</a>
+        </figure>
+        
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+          
+          <img src="./images/images/product-6.jpg" alt="Tênis casual" class="img-fluid mb-2 rounded rounded"> <!-- imagem responsiva -->
+
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm mb-2">Adicione ao carrinho</a>
+        </figure>
+
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+           rounded rounded
+          <img src="./images/images/product-7.jpg" alt="Perfume" class="img-fluid mb-2 rounded rounded"> <!-- imagem responsiva -->
+
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm mb-2">Adicione ao carrinho</a>
+        </figure>
+
+        <figure class="col-md-6 col-lg-3 col-sm-12 my-3 text-center"> <!-- Centralize o conteúdo verticalmente -->
+
+          <img src="./images/images/product-8.jpg" alt="Relógio digital com pulseira preta" class="img-fluid mb-2 rounded rounded"><!-- imagem responsiva -->
+
+          <a href="" class="btn btn-outline btn-outline-dark btn-sm mb-2">Adicione ao carrinho</a>
+        </figure>
+        
+      </article>
+    </main>
+
+
+    <!-- quarto container  (produto em destaque)-->
+    <h4 class="d-flex justify-content-center mt-3">Produto em destaque</h4>
+    <section class="row my-4 ">
+      <div class="col-md-2 my-2">
+        <div class="row">
+          <!-- detalhes do produto (4 imagens) -->
+          <div class="col-6 my-2">
+            <img src="./images/images/product-detail-1.jpg" alt="detalhes do Relógio deitado" class="rounded img-fluid ">
+          </div>
+          <div class="col-6 my-2">
+            <img src="./images/images/product-detail-2.jpg" alt="detalhes do Relógio em pe" class="rounded img-fluid ">
+          </div>
+          <div class="col-6 my-2">
+            <img src="./images/images/product-detail-3.jpg" alt="detalhes do Relógio com pulseira cinza" class="rounded img-fluid ">
+          </div>
+          <div class="col-6 my-2">
+            <img src="./images/images/product-detail-4.jpg" alt="detalhes do Relógio de frente" class="rounded img-fluid ">
+          </div>
+        </div>
+      </div>
+      <!-- produto principal -->
+      <div class="col-md-6 my-2 d-flex align-items-center">
+        <img src="./images/images/product-5.jpg" alt="Relógio de pulseira vermelha" class="img-fluid rounded">
+      </div>
+      <!-- escrita sobre o produto -->
+      <div class="col-md-4 my-2  ">
+        <i class="bi bi-star-fill d-sm-inline-flex"></i>
+        <i class="bi bi-star-fill d-sm-inline-flex"></i>
+        <i class="bi bi-star-fill d-sm-inline-flex"></i>
+        <i class="bi bi-star-fill d-sm-inline-flex"></i>
+        <i class="bi bi-star-fill d-sm-inline-flex"></i>
+        <h2>Red Digital Watch</h2>
+        <h5 class="text-color">R$9999.99</h5>
+        <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non reiciendis provident mollitia
+          quasi.</p>
+        <a href="" class="btn btn-outline btn-outline-dark btn-sm my-3">Adicione ao carrinho</a>
+        <p>
+          <i class="bi bi-heart mt-2"></i>
+          Adicionar a sua lista de desejos
+        </p>
+      </div>
+    </section>
+    </main>
+
+    <!-- rodape  -->
+    <footer class="bg-black text-light pt-3 d-flex align-items-center text-center justify-content-center container-footer ">
+      <p>2023 <i class="bi bi-c-circle"></i> Engenharia de Software | Checkpoint 04</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
